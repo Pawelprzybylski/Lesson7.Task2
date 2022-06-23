@@ -4,10 +4,10 @@ public class Movie {
     int durationInMinutes;
     int releaseYear ;
 
-    public Movie(String title, String nameAndSurnameDirector, int movieTimeInMinutes, int movieYear) {
+    public Movie(String title, String directorName, int durationInMinutes, int releaseYear) {
         this.title = title;
-        this.directorName = nameAndSurnameDirector;
-        this.durationInMinutes = movieTimeInMinutes;
-        this.releaseYear  = movieYear;
+        this.directorName = directorName;
+        this.durationInMinutes = durationInMinutes;
+        this.releaseYear  = releaseYear;
     }
 }
